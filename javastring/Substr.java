@@ -4,6 +4,7 @@ class Substr{
         Scanner sc=new Scanner(System.in);
         String name=sc.nextLine();
         String sub=name.substring(2,name.length());
-        System.out.print(sub);
+        System.out.println(sub);
+        System.out.println(name.substring(1));
     }
 }
