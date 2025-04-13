@@ -1,4 +1,4 @@
-class Abc{
+class Ab                                                    {
     public static void main(String args[]){
         System.out.println("hello java");
         System.out.print("this is first java program\n");
@@ -6,3 +6,5 @@ class Abc{
 
     }
 }
+// compile the program with the file name(Abc)---> javac Abc.java
+// run the code with the class name(Ab)--------> java Ab
