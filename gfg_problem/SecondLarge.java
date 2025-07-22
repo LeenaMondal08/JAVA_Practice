@@ -1,8 +1,8 @@
 class SecondLarge{
 public static int returnSecond(int[] arr){
-    int max=arr[0];
-    int temp=arr[0];
-    for(int i=1;i<arr.length;i++){
+    int max=-1;
+    int temp=-1;
+    for(int i=0;i<arr.length;i++){
         if(max<arr[i]){
             temp=max;
             max=arr[i];
