@@ -20,6 +20,6 @@ class Test{
         s.draw();
         Shape s1=new Square();
         s1.draw();
-        s1.eat();
+        Square.eat();
     }
 }

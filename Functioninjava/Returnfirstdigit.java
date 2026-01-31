@@ -7,6 +7,6 @@ class Returnfirstdigit{
         
     }
     public static void main(String args[]){
-        System.out.print(firstDigit(1243));
+        System.out.print(firstDigit(243));
     }
 }
