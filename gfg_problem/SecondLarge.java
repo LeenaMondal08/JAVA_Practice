@@ -6,7 +6,8 @@ public static int returnSecond(int[] arr){
         if(max<arr[i]){
             temp=max;
             max=arr[i];
-        }else if(arr[i]>temp && arr[i]!=max){
+        }
+        else if(arr[i]>temp && arr[i]!=max){
             temp=arr[i];
         }
     }
@@ -14,7 +15,7 @@ public static int returnSecond(int[] arr){
 }
 
     public static void main(String arg[]){
-        int[] arr= {7,7,7,4};
+        int[] arr= {7,8,7,7,4,5};
         System.out.println(returnSecond(arr));
 
     }
